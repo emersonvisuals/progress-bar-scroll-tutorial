@@ -15,11 +15,15 @@ export default function Home() {
                     title="Once in a blue moon"
                     tagTitle="Drama"
                     tagTitleTwo="Thriller"
+                    cta="Purchase Today"
+                    icon={true}
                 />
                 <Section
                     title="Over the falls"
                     tagTitle="Romance"
                     tagTitleTwo="Drama"
+                    cta="Purchase Today"
+                    icon={true}
                 />
             </section>
             <section className={Styles.section}>
@@ -28,11 +32,15 @@ export default function Home() {
                     title="Above and beyond the valley"
                     tagTitle="Tragedy"
                     tagTitleTwo="Thriller"
+                    cta="Available in June"
+                    icon={false}
                 />
                 <Section
                     title="Into the night"
                     tagTitle="Drama"
                     tagTitleTwo="Romance"
+                    cta="Available in July"
+                    icon={false}
                 />
             </section>
             <footer>

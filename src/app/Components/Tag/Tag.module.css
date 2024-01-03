@@ -7,6 +7,7 @@
     border-radius: 101px;
     border: 1px solid #eec847;
     width: fit-content;
+    cursor: default;
 }
 
 .h4 {

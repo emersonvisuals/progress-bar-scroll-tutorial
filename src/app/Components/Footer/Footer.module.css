@@ -14,4 +14,16 @@
 .menu {
     color: #eec847;
     cursor: pointer;
+    transition: 0.25s color;
+}
+
+.menu:hover {
+    color: #fff;
+    transition: 0.25s color;
+}
+
+@media screen and (max-width: 767px) {
+    .navigation {
+        padding: 0 0 3rem 0;
+    }
 }

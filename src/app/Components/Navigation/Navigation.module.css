@@ -20,3 +20,9 @@
     color: #fff;
     transition: 0.25s ease-in-out color;
 }
+
+@media screen and (max-width: 767px) {
+    .navigation {
+        padding: 3rem 0 0 0;
+    }
+}

@@ -1,4 +1,4 @@
-// Section.tsx
+"use client";
 import React from "react";
 import Styles from "./Section.module.css";
 import Tag from "../Tag/Tag";
@@ -10,9 +10,17 @@ interface SectionProps {
     title: string;
     tagTitle: string;
     tagTitleTwo: string;
+    cta: string;
+    icon: boolean;
 }
 
-const Section: React.FC<SectionProps> = ({ title, tagTitle, tagTitleTwo }) => {
+const Section: React.FC<SectionProps> = ({
+    title,
+    tagTitle,
+    tagTitleTwo,
+    cta,
+    icon,
+}) => {
     return (
         <div className={Styles.section}>
             <div className={Styles.contents}>
@@ -43,9 +51,12 @@ const Section: React.FC<SectionProps> = ({ title, tagTitle, tagTitleTwo }) => {
                     <Tag tagTitle={tagTitle} />
                     <Tag tagTitle={tagTitleTwo} />
                 </div>
-                <div className={Styles.cta}>
-                    <h2 className={Styles.h2Action}>purchase today</h2>
-                    <Image src={Arrow}></Image>
+                <div className={icon ? Styles.cta : Styles.ctaDisabled}>
+                    <h2 className={Styles.h2Action}>{cta}</h2>
+                    <Image
+                        src={Arrow}
+                        className={icon ? Styles.img : Styles.imgDisabled}
+                    ></Image>
                 </div>
             </div>
         </div>

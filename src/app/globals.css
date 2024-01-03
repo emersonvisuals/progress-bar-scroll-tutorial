@@ -118,8 +118,26 @@ p {
     line-height: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-    html {
-        color-scheme: dark;
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    h1 {
+        font-size: calc(8rem * 0.8);
+    }
+
+    h2 {
+        font-size: calc(2rem * 0.8);
+    }
+
+    h3 {
+        font-size: calc(1.5rem * 0.8);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    h1 {
+        font-size: calc(8rem * 0.5);
+    }
+
+    h3 {
+        font-size: calc(1.5rem * 0.75);
     }
 }
