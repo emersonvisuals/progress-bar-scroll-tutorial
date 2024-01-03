@@ -1,0 +1,15 @@
+.tag {
+    display: flex;
+    padding: 15px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 101px;
+    border: 1px solid #eec847;
+    width: fit-content;
+}
+
+.h4 {
+    color: #eec847;
+    text-transform: capitalize;
+}

@@ -1,0 +1,22 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5rem 0 0 0;
+}
+
+.author {
+    color: #eec847;
+}
+
+.menu {
+    color: #eec847;
+    cursor: pointer;
+    transition: 0.25s ease-in-out color;
+}
+
+.menu:hover {
+    color: #fff;
+    transition: 0.25s ease-in-out color;
+}

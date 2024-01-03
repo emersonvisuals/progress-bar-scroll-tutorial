@@ -1,0 +1,17 @@
+.navigation {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 0 5rem 0;
+}
+
+.author {
+    color: #eec847;
+}
+
+.menu {
+    color: #eec847;
+    cursor: pointer;
+}

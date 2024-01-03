@@ -1,0 +1,43 @@
+.section {
+    min-height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 8rem;
+    margin: 0;
+    padding: 8rem 0 0 0;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0 0 2rem 0;
+}
+
+.h2 {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.p {
+    color: #fff;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.cta:hover + .h2Action {
+    color: #fff;
+}
+
+.h2Action {
+    color: #eec847;
+    text-transform: capitalize;
+    padding: 0 1rem 0 0;
+}
